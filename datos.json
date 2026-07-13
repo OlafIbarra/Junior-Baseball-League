@@ -1,0 +1,151 @@
+[
+{
+  "model": "league.team",
+  "pk": 1,
+  "fields": {
+    "name": "Pumas",
+    "city": "CDMX",
+    "owner": 2,
+    "category": "JUNIOR"
+  }
+},
+{
+  "model": "league.team",
+  "pk": 2,
+  "fields": {
+    "name": "Chivas",
+    "city": "GDL",
+    "owner": 3,
+    "category": "JUNIOR"
+  }
+},
+{
+  "model": "league.player",
+  "pk": 1,
+  "fields": {
+    "name": "Laura",
+    "number": 9,
+    "position": "THIRD BASE",
+    "birth_date": "2015-04-14",
+    "team": 1
+  }
+},
+{
+  "model": "league.player",
+  "pk": 2,
+  "fields": {
+    "name": "Cesar",
+    "number": 19,
+    "position": "RIGHT FIELD",
+    "birth_date": "2015-04-14",
+    "team": 2
+  }
+},
+{
+  "model": "league.player",
+  "pk": 3,
+  "fields": {
+    "name": "Josefina",
+    "number": 19,
+    "position": "LEFT FIELD",
+    "birth_date": "2015-04-14",
+    "team": 1
+  }
+},
+{
+  "model": "league.player",
+  "pk": 4,
+  "fields": {
+    "name": "Josefina Cr",
+    "number": 99,
+    "position": "CENTER FIELD",
+    "birth_date": "2015-04-14",
+    "team": 1
+  }
+},
+{
+  "model": "league.match",
+  "pk": 1,
+  "fields": {
+    "home_team": 1,
+    "away_team": 2,
+    "match_date": "2026-09-22",
+    "location": "GDL",
+    "home_score": 0,
+    "away_score": 0,
+    "status": "SCHEDULED"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$C9Zk8ETl328a0FTBXdMypm$J2jWD91+EYn09KWCg6kP5ZHJraH98FailkBrfnrkMy8=",
+    "last_login": "2026-07-06T22:32:27.192Z",
+    "is_superuser": true,
+    "username": "olaf",
+    "first_name": "",
+    "last_name": "",
+    "email": "olafibarr22@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-05T22:37:55Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$NslTHkPb6vN7sBIs137w3H$9xBz9TS1QoR2bYSovt6y0QdVo0JQ5wnBiXfjszDJwII=",
+    "last_login": "2026-07-06T22:33:03.711Z",
+    "is_superuser": false,
+    "username": "coach_pumas",
+    "first_name": "Estaban",
+    "last_name": "Solari",
+    "email": "esteban@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-06T06:03:44Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ghGLqUsCahAkudviYahZ7w$3/SFbqgHvHKgNwl/lzE8WTkLIpSGQWMOw5AaWkDJ2qc=",
+    "last_login": "2026-07-06T07:11:23.552Z",
+    "is_superuser": false,
+    "username": "coach_chivas",
+    "first_name": "Gabriel",
+    "last_name": "Milito",
+    "email": "gabriel@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-06T07:05:40Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$bA5MZSI8ZuGZYp6qpvi5lx$6AltxMicLQt9r5TAtLGVx2Ot/UPacQJsCz1FltTUYL4=",
+    "last_login": "2026-07-06T07:10:43.592Z",
+    "is_superuser": true,
+    "username": "olaf1",
+    "first_name": "",
+    "last_name": "",
+    "email": "olaf1@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-06T07:09:27.290Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
